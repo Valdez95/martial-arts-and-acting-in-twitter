@@ -196,7 +196,7 @@ word_count(actorslife_text)
 ```
 
 
-![png](output_26_0.png)
+![png](plots/output_26_0.png)
 
 
 Here we can see that the top five highest frequency words are actor, new, time, film, and day. These words do make sense when we recognize that the text data is coming from the #actorslife hashtag. 
@@ -452,7 +452,7 @@ word_count(actorslife['Hashtags'])
 ```
 
 
-![png](output_43_0.png)
+![png](plots/output_43_0.png)
 
 
 A majority of people using the #actorslife hashtag also use the #actor, #acting, and #actors hashtags. This is also sensible considering that actor, actors, and acting are all words which can be considered closely realted to actorslife. Knowing which hashtags are used within a tweet along with the word count could possibly be used to gain greater insight into what the topic of the text is. 
@@ -697,7 +697,7 @@ plot_wcss(X_actorslife)
 ```
 
 
-![png](output_57_0.png)
+![png](plots/output_57_0.png)
 
 
 It looks like the variability between clusters is consistently large, but between 20 and 25 clusters it shrinks and so that could be a good area to choose. Also I'm not sure how well this data can cluster so to keep the analysis simple I will stick with a smaller amount of clusters.
@@ -818,7 +818,7 @@ plot_wcss(X_actorslife)
 ```
 
 
-![png](output_70_0.png)
+![png](plots/output_70_0.png)
 
 
 Now we can fit a KMeans model on the hashtags to see what hashtags cluster together.
@@ -1049,7 +1049,7 @@ word_count(text)
 
 
 
-![png](output_84_1.png)
+![png](plots/output_84_1.png)
 
 
 
@@ -1363,7 +1363,7 @@ word_count(evermore['Hashtags'])
 
 
 
-![png](output_90_1.png)
+![png](plots/output_90_1.png)
 
 
 
@@ -1392,7 +1392,7 @@ plot_wcss(X)
 ```
 
 
-![png](output_95_0.png)
+![png](plots/output_95_0.png)
 
 
 
@@ -1443,7 +1443,7 @@ plot_wcss(X1)
 ```
 
 
-![png](output_100_0.png)
+![png](plots/output_100_0.png)
 
 
 
